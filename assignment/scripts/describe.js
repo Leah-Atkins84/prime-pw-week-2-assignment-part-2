@@ -130,6 +130,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -137,6 +138,7 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+// FIX - Above add colorTwo = 'purple';
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
