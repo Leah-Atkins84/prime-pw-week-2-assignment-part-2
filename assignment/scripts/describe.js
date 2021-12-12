@@ -152,6 +152,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+// FIX - above, instead of '||', should be '&&'
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
