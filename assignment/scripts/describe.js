@@ -130,7 +130,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'.
+// FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'. It is reversed.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -138,7 +138,7 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
-// FIX - Above add colorTwo = 'purple';
+// FIX - Above only has colorOne listed so should add colorTwo = 'purple';
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -152,7 +152,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-// FIX - above, instead of '||', should be '&&'
+// FIX - above, the '||' denotes that either can be true so instead of '||', should be '&&'
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -168,4 +168,5 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+// FIX - above the minAge is less than or equal to age, instead should be age >= minAge
 */
